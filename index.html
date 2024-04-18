@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2><u>General Knowledge Quiz</u></h2>
+        <p id="ques"></p>
+        <input onclick="cl()" type="radio" name="options" value="1">
+        <label id="opt1"></label><br>
+
+        <input onclick="cl()" type="radio" name="options" value="2">
+        <label id="opt2"></label><br>
+
+        <input onclick="cl()" type="radio" name="options" value="3">
+        <label id="opt3"></label><br><br><br>
+
+        <button disabled onclick="next()"><b>Next</b></button>
+    </div>
+
+
+    <script src="quiz.js"></script>
+</body>
+</html>
